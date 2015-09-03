@@ -1,5 +1,5 @@
 <?php
-$email_to = "justinandersun@gmail.com";
+$email_to = "jeremywdowik@gmail.com";
 $email_subject = "Holler from Jolly Goat";
 
 $name = $_POST['name'];
@@ -7,7 +7,7 @@ $email = $_POST['email'];
 $message = $_POST['comments'];
 
 
-$email_message = "Hey Justin, \n\n";
+$email_message = "Hey Jeremy, \n\n";
 
 function clean_string($string) {
   $bad = array("content-type","bcc:","to:","cc:","href");
